@@ -1,0 +1,19 @@
+{
+  "name": "xhlf-node-static-file-merge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XinHuaLuFang/xhlf-node-static-file-merge.git"
+  },
+  "author": "xinhualufang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XinHuaLuFang/xhlf-node-static-file-merge/issues"
+  },
+  "homepage": "https://github.com/XinHuaLuFang/xhlf-node-static-file-merge#readme"
+}
