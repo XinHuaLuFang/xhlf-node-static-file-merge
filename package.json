@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js config.json"
+    "test1": "node index1.js config.json",
+    "test2": "node index2.js config.json"
   },
   "repository": {
     "type": "git",

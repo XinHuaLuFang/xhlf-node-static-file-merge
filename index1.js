@@ -1,6 +1,6 @@
 const fs = require('fs'),
-      path = require('path'),
-      http = require('http');
+  path = require('path'),
+  http = require('http');
 
 const MIME = {
   '.css': 'text/css',
@@ -44,7 +44,7 @@ function parseURL(root, url) {
 }
 
 function main(argv) {
-  let config = JSON.parse(fs.readFileSync(argv[0], 'utf-8')),
+  const config = JSON.parse(fs.readFileSync(argv[0], 'utf-8')),
     root = config.root || '.',
     port = config.port || 80;
 
